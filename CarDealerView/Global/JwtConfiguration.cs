@@ -9,9 +9,9 @@ namespace CarDealerView.Models
 {
     public class JwtConfiguration
     {
-        public const string Issuer = "MVS";
-        public const string Audience = "ApiUser";
-        public const string Key = "12345678901234567890";
+        public const string Issuer = "Chris";
+        public const string Audience = "Użytkownicy aplikacji CarDealer";
+        public const string Key = "Klucz szyfrujący tokeny JWT - uwaga powinien być bardzo skomplikowany, minimum to 16 znaków";
         public const string AuthSchemes = "Identity.Application" + "," + JwtBearerDefaults.AuthenticationScheme;
     }
 }
